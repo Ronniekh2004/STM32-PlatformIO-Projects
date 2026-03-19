@@ -16,7 +16,7 @@ typedef unsigned long int      uint64_t;
 #define TOG_BIT(X,BIT_NO)  (X) ^= (1<<(BIT_NO))
 
 
-#define READ_BIT(X,BIT_NO)  (((X)& (1<<(BIT_NO)) >> (BIT_NO)))
+#define READ_BIT(X,BIT_NO)  (((X)& (1<<(BIT_NO))) >> (BIT_NO))
 #define CHK_BIT(X,BIT_NO)  (((X) & (1<<(BIT_NO))) ==1 )
 #define NCHK_BIT(X,BIT_NO)  (((X) & (1<<(BIT_NO))) ==0 )
 

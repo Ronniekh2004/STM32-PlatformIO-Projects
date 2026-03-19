@@ -51,9 +51,9 @@ typedef struct
 } ADC_Typedef ;
 
 #define PORTA   ((GPIO_Typedef*) GPIO_A_BASE)
-#define PORTB   ((GPIO_Typedef*) GPIO_A_BASE)
-#define PORTC   ((GPIO_Typedef*) GPIO_A_BASE)
-#define PORTD   ((GPIO_Typedef*) GPIO_A_BASE)
+#define PORTB   ((GPIO_Typedef*) GPIO_B_BASE)
+#define PORTC   ((GPIO_Typedef*) GPIO_C_BASE)
+#define PORTD   ((GPIO_Typedef*) GPIO_D_BASE)
 
 #define RCC     ((RCC_Typedef*) RCC_BASE)
 
